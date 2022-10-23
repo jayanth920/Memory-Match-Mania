@@ -1,62 +1,41 @@
-//DECLARATIONS
-const moves = document.getElementById("moves-count");
-const timeValue = document.getElementById("time")
-const startButton = document.getElementById("start")
-const restartButton = document.getElementById("restart")
-const gameContainer = document.querySelector(".game-container");
-const result = document.getElementById("result")
-const controls = document.querySelector(".controls-container");
-let cards
-let interval
-let firstCard = false
-let secondCArd = false
-
-//PICTURES ARRAY
-const items = [
-    {name:"pizza",image:"images/pizza.jpeg"},
-    {name:"hotdog",image:"images/hotdog.jpeg"},
-    {name:"burrito",image:"images/burrito.jpeg"},
-    {name:"tacos",image:"images/tacosjpeg"},
-    {name:"burger",image:"images/burger.jpeg"},
-    {name:"sandwich",image:"images/sandwich.jpeg"},
-    {name:"fries",image:"images/fries.jpeg"},
-    {name:"strawberry",image:"images/strawberry.jpeg"},
-    {name:"watermelon",image:"images/watermelon.jpeg"},
-    {name:"apple",image:"images/apple.jpeg"},
-    {name:"coconut",image:"images/coconut.jpeg"},
-    {name:"orange",image:"images/orange.jpeg"}
-]
-
-//DEFAULT INITIAL TIME
-let seconds = 0      
-let minutes = 0
-
-//DEFAULT INITIAL MOVE and WIN 
-let movesCount = 0
-let wincCount = 0
-
-//TIMER
-const timeRunner = () => {
-    seconds += 1
-    if (seconds >= 60){     //SECONDS TO MINUTES
-    minutes += 1
-    seconds = 0
+// SYMBOLS AND THEIR MEANING : ❤️🤍🧡💛=> HEARTS OF THE GAME
+//                            👍 => SUPPORT FUNCTION
+//                            🔽 => DECLARATIONS and MISC.
+                             
+//DECLARATIONS AND SELECTORS 🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
+const selectors = {
+    boardContainer: document.querySelector('.board-container'),
+    board: document.querySelector('.board'),
+    moves: document.querySelector('.moves'),
+    timer: document.querySelector('.timer'),
+    start: document.querySelector('button'),
+    win: document.querySelector('.win')
 }
 
-//DISPLAY FORMAT FOR TIME
-let secondsValue = seconds < 10 ? `0${seconds}` : seconds
-let minutesValue = minutes < 10 ? `0${minutes}` : minutes
-timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`
+let msg = document.querySelector('.msg');
+let msgText = document.querySelector('.msg p');
+let startBtn = document.querySelector('#btn');
 
+const state = {
+    gameStarted: false,
+    flippedCards: 0,
+    totalFlips: 0,
+    totalTime: 0,
+    loop: null
 }
 
-//MOVES COUNTER
-const movesCounter = () => {
-    movesCount +=1;
-    moves.innetHTML = `<span>Moves:</span>${movesCount}`
+//CARD SHUFFLING 🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍
 
+const shuffle = array => {
+    const clonedArray = [...array]
+
+    for (let index = clonedArray.length - 1; index > 0; index--) {
+        const randomIndex = Math.floor(Math.random() * (index + 1))
+        const original = clonedArray[index]
+
+        clonedArray[index] = clonedArray[randomIndex]
+        clonedArray[randomIndex] = original
+    }
+
+    return clonedArray
 }
-
-
-
-

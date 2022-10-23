@@ -1,28 +1,32 @@
-<!DOCTYPE html>
+\<!DOCTYPE html>
 <html lang="en">
-<head>
-  
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLASH CARD MEMORY GAME</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="stats-container">
-            <div id="moves-count"></div>
-            <div id="time"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🧠 CARD GAME JAVASCRIPT</title>
+
+        <link rel="stylesheet" href="./style.css" />
+        
+    </head>
+    <body>
+        <div id="msgArea" class="msg"><p class="msgText"></p></div>
+
+        <div class="game">
+            <div class="controls">
+                <button id="btn" class="">Start</button>
+                <div class="stats">
+                    <div class="moves">0 moves</div>
+                    <div class="timer">time: 0 sec</div>
+                </div>
+            </div>
+            <div class="board-container">
+                <div class="board" data-dimension="4"></div>
+                <div class="win">You won!</div>
+            </div>
+            <div class="footer"><a target="_blank" href="https://github.com/jayanth920/project-1">Jayanth (GITHUB)</a></div>
         </div>
-        <div class="game-container"></div>
-        <button id="reset" class="hide">Reset</button>
-    </div>
-    <div class="controls-container">
-    <p id="result"></p>
-    <button id=""start>Start Game</button>
-</div>
-    
-</body>
-<script src="./script.js"></script>
+      
+    </body>
+    <script src="./script.js" ></script>
 </html>
