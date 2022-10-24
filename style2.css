@@ -8,6 +8,7 @@
 	box-sizing: border-box;
 }
 
+
 html {
     width: 100%;
     height: 100%;
@@ -15,7 +16,7 @@ html {
     font-family: Fredoka;
 }
 body {
-	background-color: #fafafa;
+	background:url(img/back.jpg);
     display: flex;
     height: 200vh;
     user-select: none;
@@ -42,7 +43,8 @@ body {
   
 /* TOGGLE THEME BUTTON */
 body.dark {
-	background: #292C35;
+	background:url(https://media.giphy.com/media/14u2ZI1XhkoZCU/giphy.gif);
+
 }
 
 p.dark{

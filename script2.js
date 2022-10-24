@@ -36,8 +36,6 @@ $(document).ready(function(){
     });
   });
 
-
-  
   
 //TOGGLE THEME BUTTON 🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
 const chk = document.getElementById('chk');
@@ -54,11 +52,25 @@ const shuffle = array => {
     for (let i = clonedArray.length - 1; i > 0; i--) {
         const randomi = Math.floor(Math.random() * (i + 1))
         const original = clonedArray[i]
-
         clonedArray[i] = clonedArray[randomi]
         clonedArray[randomi] = original
     }
 
     return clonedArray
+}
+
+//RANDOM CARD PICK FUNCTION 🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡
+const pickRandom = (array, items) => {
+    const clonedArray = [...array]
+    const randomPicks = []
+
+    for (let i = 0; i < items; i++) {
+        const randomi = Math.floor(Math.random() * clonedArray.length)
+        
+        randomPicks.push(clonedArray[randomi])
+        clonedArray.splice(randomi, 1)
+    }
+
+    return randomPicks
 }
 
