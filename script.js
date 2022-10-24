@@ -23,6 +23,12 @@ const state = {
     totalTime: 0,
     loop: null
 }
+//TOGGLE THEME BUTTON 🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
 
 //CARD SHUFFLING 🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍
 
