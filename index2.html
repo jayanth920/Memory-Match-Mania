@@ -6,25 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="favicon.png" >
         <title>🧠 CARD GAME JAVASCRIPT</title>
-        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./style2.css">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     </head>
     <body>
+      
         <div class="text">MEMORY<br>GAME</div>
-        <script>
-          $(document).ready(function(){
-            $(document).mousemove(function(p){
-              var cursorX = p.pageX;
-              var cursorY = p.pageY;
-              var tranX = ((7 * cursorX) / 570) + 40;
-              var tranY = ((7 * cursorY) / 570) + 50;
-              $('.text').css({
-                "background-position": tranX + "%" + tranY + "%"
-              });
-            });
-          });
-        </script>
-    
         <div id="msgArea" class="msg"><p class="msgText"></p></div>
         <div class="game">
             <div class="controls">
@@ -50,8 +37,8 @@
                 <div class="board" data-dimension="4"></div>
                 <div class="win">You won!</div>
             </div>
-            <div class="footer"><a target="_blank" href="https://github.com/jayanth920/project-1">Jayanth (GITHUB)</a></div>
+            <div class="footer"><a target="_blank" href="https://github.com/jayanth920/project-1">Source Code: Jayanth (GITHUB)</a></div>
         </div>
-        <script src="./script.js" ></script>
+        <script src="./script2.js" ></script>
     </body>
 </html>
