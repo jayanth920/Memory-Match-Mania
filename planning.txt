@@ -7,4 +7,5 @@ PLANNING
 -Partial HTML skeleton code for the container GRID. --Date : 10/21/2022   
 -Basic Grid CSS Styling and start with JS declarations, Timer,Moves and add planning.txt. --Date : 010/22/2022   
 -Add favicon, credits.txt to be added and updated as project progresses. --Date : 10/23/2022   
+-Added some buttons. --Date : 10/24/2022
   

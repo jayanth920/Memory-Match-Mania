@@ -1,7 +1,7 @@
 // SYMBOLS AND THEIR MEANING : ❤️🤍🧡💛=> HEARTS OF THE GAME
 //                            👍 => SUPPORT FUNCTION
 //                            🔽 => DECLARATIONS and MISC.
-                             
+ 
 //DECLARATIONS AND SELECTORS 🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
 const selectors = {
     boardContainer: document.querySelector('.board-container'),
@@ -76,7 +76,7 @@ const generateGame = () => {
         <div class="board" style="grid-template-columns: repeat(${dimensions}, auto)">
             ${items.map(item => `
                 <div class="card">
-                    <div class="card-front"></div>
+                    <div class="card-front" style="font-size:30;align=center">FLIP<br>ME</div>
                     <div class="card-back">${item}</div>
                 </div>
             `).join('')}
