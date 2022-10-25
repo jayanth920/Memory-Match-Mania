@@ -59,18 +59,3 @@ const shuffle = array => {
     return clonedArray
 }
 
-//RANDOM CARD PICK FUNCTION 🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡
-const pickRandom = (array, items) => {
-    const clonedArray = [...array]
-    const randomPicks = []
-
-    for (let i = 0; i < items; i++) {
-        const randomi = Math.floor(Math.random() * clonedArray.length)
-        
-        randomPicks.push(clonedArray[randomi])
-        clonedArray.splice(randomi, 1)
-    }
-
-    return randomPicks
-}
-
