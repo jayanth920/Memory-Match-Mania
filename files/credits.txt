@@ -1,5 +1,4 @@
 ----Images : https://getemoji.com/
-
 ----Arrow function code referral : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 ----Multiple JS CODE SYNTAXES : https://eloquentjavascript.net/
 ----CSS grid: https://codepip.com/games/grid-garden/
