@@ -11,4 +11,4 @@
 ----cssPopubBox: https://www.w3schools.com/howto/howto_css_modals.asp
 ----FreeCodeCamp Memory Tutorial : https://www.youtube.com/watch?v=ZniVgo8U7ek
 ----Theme button toggle: https://www.youtube.com/watch?v=xodD0nw2veQ
-https://www.youtube.com/watch?v=MiqICOHghSs&list=PLTx5odxbAeZxoR0z1l31F-N8ScRUKzshM&index=5
+----Title animation : https://www.youtube.com/watch?v=MiqICOHghSs&list=PLTx5odxbAeZxoR0z1l31F-N8ScRUKzshM&index=5
