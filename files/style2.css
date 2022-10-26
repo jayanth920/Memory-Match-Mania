@@ -8,13 +8,13 @@
 	box-sizing: border-box;
 }
 
-
 html {
     width: 100%;
     height: 100%;
     background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
     font-family: Fredoka;
 }
+
 body {
 	background:url(img/back.jpg);
     display: flex;
@@ -39,7 +39,7 @@ body {
     text-shadow: 3px 3px 4px rgba(0,0,0,.2);
     font-family: 'Fredoka', sans-serif;
     -webkit-text-stroke: 2px white;
-  }
+}
   
 /* TOGGLE THEME BUTTON */
 body.dark {
@@ -53,6 +53,8 @@ p.dark{
     padding:5px;
     color : white ;
 }
+
+
 
 .checkbox {
 	opacity: 0;
@@ -97,8 +99,6 @@ p.dark{
 .fa-sun {
 	color: #f39c12;
 }
-
-
 
 .msg {
     
@@ -157,7 +157,6 @@ p.dark{
 }
 
 /* START BUTTON */
-
 button {
     background: #282A3A;
     color: #FFF;
