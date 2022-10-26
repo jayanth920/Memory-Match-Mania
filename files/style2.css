@@ -151,6 +151,7 @@ p.dark{
 .footer a{
     text-decoration: none;
     color: #f6c411;
+    -webkit-text-stroke: 2px black;
 
     font-size: 16px;
 }
