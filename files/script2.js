@@ -100,6 +100,8 @@ const generateGame = () => {
 
     selectors.board.replaceWith(parser.querySelector('.board'))
 }
+
+
 //START FUNCTION WITH TIMER AND MOVES COUNTER  💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛
 const startGame = () => {                   //When Start button is clicked
     state.gameStarted = true
@@ -123,6 +125,8 @@ const startGame = () => {                   //When Start button is clicked
         selectors.timer.innerText = `Time: ${state.totalTime} sec`
     }, 1000)
 }
+
+
 
 //CARD FLIP 👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
 const flipBackCards = () => {
@@ -194,8 +198,6 @@ const attachEventListeners = () => {
         }
     })
 }
-
 generateGame()
 attachEventListeners()
-
 generateGame()
