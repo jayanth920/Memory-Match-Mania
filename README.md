@@ -1,4 +1,7 @@
 # PROJECT - 1 [MEMORY FLASH CARDS GAME]
+
+GAME LINK : [**LINK**](https://jayanth920.github.io/project-1/)
+
 ## List of Technologies used:-
  Please go through the **credits.txt**:[**LINK**](https://github.com/jayanth920/project-1/blob/main/files/credits.txt)
  
