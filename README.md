@@ -1,6 +1,6 @@
 # PROJECT - 1 [MEMORY FLASH CARDS GAME]
 
-## GAME LINK : [**LINK**](https://jayanth920.github.io/project-1/)
+## Game Link : [**LINK**](https://jayanth920.github.io/project-1/)
 
 ## PROJECT SCREENSHOTS : 
 Page 1 - Rules <img width="1404" alt="Page 1" src="https://user-images.githubusercontent.com/113549918/198054867-d94835da-473e-40f9-b72d-f30b32760f68.png">
@@ -14,4 +14,11 @@ Page 2 - Game Board<img width="1440" alt="Page 2 - Game Board" src="https://user
 ## The Planning for this project:-
  Please go through the **planning.txt** :[**LINK**](https://github.com/jayanth920/project-1/blob/main/files/planning.txt)
  
+ ## WireFrame 
  
+![WireFrame](https://user-images.githubusercontent.com/113549918/198056394-22194d63-5631-49aa-a57f-df99ca8fad34.jpeg)
+
+## User Stories
+As a user, I want to be able to check if the cards are the same which are being matched.<br>
+As a user, I want to check my time taken.<br>
+As a user, I want to know my score or at least the moves.
