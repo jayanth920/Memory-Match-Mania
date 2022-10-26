@@ -19,6 +19,11 @@ Page 2 - Game Board<img width="1440" alt="Page 2 - Game Board" src="https://user
 ![WireFrame](https://user-images.githubusercontent.com/113549918/198056394-22194d63-5631-49aa-a57f-df99ca8fad34.jpeg)
 
 ## User Stories
-As a user, I want to be able to check if the cards are the same which are being matched.<br>
-As a user, I want to check my time taken.<br>
-As a user, I want to know my score or at least the moves.
+-> As a user, I want to be able to check if the cards are the same which are being matched.<br>
+-> As a user, I want to check my time taken.<br>
+-> As a user, I want to know my score or at least the moves.
+
+## Major Hurdles (All credits are given to the respective contributors in my [**credits.txt**](https://github.com/jayanth920/project-1/blob/main/files/credits.txt))
+-> For me the css styling was a big blocker when the game container did not come to the center.But after watching few tutorials on flexbox, I finally did it.<br>
+-> The logic of shuffling the cards and generating them in my website was a problem , but solved it with a video of FreeCodeCamp.
+
