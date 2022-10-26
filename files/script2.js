@@ -102,3 +102,29 @@ const generateGame = () => {
 }
 
 
+//START FUNCTION WITH TIMER AND MOVES COUNTER  💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛
+const startGame = () => {                   //When Start button is clicked
+    state.gameStarted = true
+    selectors.start.classList.add('disabled')
+
+    startBtn.classList.add("lock");
+
+
+    setTimeout(function() {
+         msg.style.display = "none";
+    }, 1500); // <-- time in milliseconds
+
+
+
+
+
+    state.loop = setInterval(() => {
+        state.totalTime++
+
+        selectors.moves.innerText = `${state.totalFlips} Moves`
+        selectors.timer.innerText = `Time: ${state.totalTime} sec`
+    }, 1000)
+}
+
+
+
