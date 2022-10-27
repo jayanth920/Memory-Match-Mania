@@ -9,4 +9,6 @@ PLANNING
 -Add favicon, credits.txt to be added and updated as project progresses. --Date : 10/23/2022   
 -Added some buttons, added a popup box with rules that redirects to game.  --Date : 10/24/2022
 -Added Light and Dark theme toggle buttons.  --Date : 10/25/2022
+-Adjusted all the CSS layouts of cards , buttons , and wrote the main functions. --Date : 10/26/2022
+-Made a shorter version of the game , using the code done previously with images, --Date: 10/27/2022
   
