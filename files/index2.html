@@ -1,44 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="img/favicon.png" >
-        <title>🧠 CARD GAME JAVASCRIPT</title>
-        <link rel="stylesheet" type="text/css" href="./style2.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    </head>
-    <body>
-        <div class="text">THE EM🧠JI<br>CARD GAME</div>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="text">THE EM🧠JI<br>CARD GAME</div>
+
+    <div class="wrapper">
+      <div class="details">
+        <button>Restart</button>
+        <p class="time">&nbsp;Time: <span><b>60</b>s</span></p>
+        <p class="flips">Flips: <span><b>0</b></span></p>
         
-        <div id="msgArea" class="msg"><p class="msgText"></p></div>
-        <div class="game">
-            <div class="controls">
-                <button id="btn" class="dark">Start</button>
-                <div class="stats">
-                    <div class="moves">0 Moves</div>
-                    <div class="timer">Time: 0 sec</div>
-                </div>
-                <div class="theme">
-                    <p class="dark">L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <input type="checkbox" class="checkbox" id="chk">
-                    <label class="label" for="chk">
-                        <i class="fas fa-moon"></i>
-                        
-                        <i class="fas fa-sun"></i>
-                        <span class="ball"></span>
-                    </label>
-                    <p class = 'dark'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D</p>
-                </div>
-                
-            </div>
-            <div class="board-container">
-                <div class="board" data-dimension="4"></div>
-                <div class="win">You won!</div>
-            </div>
-            <div class="footer"><a target="_blank" href="https://github.com/jayanth920/project-1">Source Code: Jayanth (GITHUB)</a></div>
-        </div>
-        <script src="./script2.js" ></script>
-    </body>
+        <div class="theme">
+          <input type="checkbox" class="checkbox" id="chk">
+          <label class="label" for="chk">
+              <i class="fas fa-moon"></i> 
+              <i class="fas fa-sun"></i>
+              <span class="ball"></span>
+          </label>
+          
+      </div>
+
+      </div>
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-1.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-2.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-3.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-4.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-5.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-6.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-5.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-6.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-1.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-2.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-3.png" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/question-mark.png" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img src="images/img-4.png" alt="card-img">
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer"><a target="_blank" href="https://github.com/jayanth920/project-1">Source Code: Jayanth (GITHUB)</a></div>
+    <script src="script.js"></script>
+    
+  </body>
 </html>

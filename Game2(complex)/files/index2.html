@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/favicon.png" >
+        <title>🧠 CARD GAME JAVASCRIPT</title>
+        <link rel="stylesheet" type="text/css" href="./style2.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <div class="text">THE EM🧠JI<br>CARD GAME</div>
+        
+        <div id="msgArea" class="msg"><p class="msgText"></p></div>
+        <div class="game">
+            <div class="controls">
+                <button id="btn" class="dark">Start</button>
+                <div class="stats">
+                    <div class="moves">0 Moves</div>
+                    <div class="timer">Time: 0 sec</div>
+                </div>
+                <div class="theme">
+                    <p class="dark">L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label class="label" for="chk">
+                        <i class="fas fa-moon"></i>
+                        
+                        <i class="fas fa-sun"></i>
+                        <span class="ball"></span>
+                    </label>
+                    <p class = 'dark'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D</p>
+                </div>
+                
+            </div>
+            <div class="board-container">
+                <div class="board" data-dimension="4"></div>
+                <div class="win">You won!</div>
+            </div>
+            <div class="footer"><a target="_blank" href="https://github.com/jayanth920/project-1">Source Code: Jayanth (GITHUB)</a></div>
+        </div>
+        <script src="./script2.js" ></script>
+    </body>
+</html>

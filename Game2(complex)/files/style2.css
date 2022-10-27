@@ -292,8 +292,7 @@ button.lock{
 }
 
 
-
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     .board-container {
         width: 370px;
@@ -321,6 +320,9 @@ button.lock{
         font-size: 60px;
     }
 
+    .text{
+        font-size: 60px;
+    }
     
 
 

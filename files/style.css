@@ -1,0 +1,263 @@
+/* Import Google Font - Fredoka */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@font-face {
+    font-family: Fredoka;
+    src: url(./FredokaOne-Regular.ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka';
+}
+p{
+  font-size: 20px;
+}
+body{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:url(images/back.jpg);
+}
+/* HEADING MEMORY GAME */
+.text{
+  text-align: center;
+  align-items: center;
+  font-size: 120px;
+  background: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: -4px;
+  text-shadow: 3px 3px 4px rgba(0,0,0,.2);
+  font-family: 'Fredoka';
+  -webkit-text-stroke: 2px white;
+}
+
+
+::selection{
+  color: #fff;
+}
+
+/* TOGGLE THEME BUTTON */
+body.dark {
+	background:url(https://media.giphy.com/media/14u2ZI1XhkoZCU/giphy.gif);
+
+}
+
+p.dark{
+    background-color:  #292C35;
+    border-radius: 2px;
+    padding:5px;
+    color : white ;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
+
+.wrapper{
+  padding: 25px;
+  background:rgb(0, 251, 255);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.cards, .card, .view, .details, p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards{
+  height: 350px;
+  width: 350px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .card{
+  cursor: pointer;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  height: calc(100% / 4 - 10px);
+  width: calc(100% / 4 - 10px);
+}
+.card.shake{
+  animation: shake 0.35s ease-in-out;
+}
+@keyframes shake {
+  0%, 100%{
+    transform: translateX(0);
+  }
+  20%{
+    transform: translateX(-13px);
+  }
+  40%{
+    transform: translateX(13px);
+  }
+  60%{
+    transform: translateX(-8px);
+  }
+  80%{
+    transform: translateX(8px);
+  }
+}
+.cards .card .view{
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  background: #fff;
+  border-radius: 7px;
+  backface-visibility: hidden;
+  transition: transform 0.25s linear;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.card .front-view img{
+  max-width: 17px;
+}
+.card .back-view{
+  transform: rotateY(-180deg);
+}
+.card .back-view img{
+  max-width: 40px;
+}
+.card.flip .front-view{
+  transform: rotateY(180deg);
+}
+.card.flip .back-view{
+  transform: rotateY(0);
+}
+
+.details{
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-radius: 7px;
+  background: #fff;
+  height: calc(100% / 4 - 30px);
+  justify-content: space-evenly;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.details p{
+  font-size: 18px;
+  height: 17px;
+  padding-right: 18px;
+  border-right: 1px solid #ccc;
+}
+.details p span{
+  margin-left: 8px;
+}
+.details p b{
+  font-weight: 500;
+}
+.details button{
+  cursor: pointer;
+  font-size: 14px;
+  color: #6563ff;
+  border-radius: 4px;
+  padding: 4px 11px;
+  background: #fff;
+  border: 2px solid #6563ff;
+  transition: 0.3s ease;
+}
+.details button:hover{
+  color: #fff;
+  background: #6563ff;
+}
+
+@media screen and (max-width: 700px) {
+  .cards{
+    height: 350px;
+    width: 350px;
+  }
+  .card .front-view img{
+    max-width: 16px;
+  }
+  .card .back-view img{
+    max-width: 40px;
+  }
+}
+
+.footer {
+  padding-top: 10px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #f6c411;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 530px) {
+  .cards{
+    height: 300px;
+    width: 300px;
+  }
+  .card .back-view img{
+    max-width: 35px;
+  }
+  .details{
+    margin-top: 10px;
+    padding: 0 15px;
+    height: calc(100% / 4 - 20px);
+  }
+  .details p{
+    height: 15px;
+    font-size: 17px;
+    padding-right: 13px;
+  }
+  .details button{
+    font-size: 13px;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    background: #6563ff;
+  }
+}
