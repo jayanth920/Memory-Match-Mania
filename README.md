@@ -3,11 +3,11 @@
 ## Game Link : [**LINK**](https://jayanth920.github.io/project-1/)
 
 ## PROJECT SCREENSHOTS : 
-Page 1 - Rules <img width="1404" alt="Page 1" src="https://user-images.githubusercontent.com/113549918/198054867-d94835da-473e-40f9-b72d-f30b32760f68.png">
-Page 2 - Heading and Controls  <img width="1440" alt="Page 2 - Title and Controls" src="https://user-images.githubusercontent.com/113549918/198054891-bff50601-bf28-4cab-b149-5804e99eeae2.png">
-Page 2 - Game Board<img width="1440" alt="Page 2 - Game Board" src="https://user-images.githubusercontent.com/113549918/198054915-012af875-ba8f-4277-9832-89672472990d.png">
+Page 1 - Rules <img width="1399" alt="Page 1 - Rules" src="https://user-images.githubusercontent.com/113549918/198181484-437a7bd4-884a-459d-bdfa-fbee5305aa8f.png">
+Page 2 - Heading and Controls <img width="1401" alt="Page 2 - Heading and Buttons" src="https://user-images.githubusercontent.com/113549918/198181162-a501ec63-9a7b-43f7-8955-3c195a02505f.png">
+Page 2 - Game Board<img width="1401" alt="Page 2 - Game Board" src="https://user-images.githubusercontent.com/113549918/198181223-ead66df8-40d9-449f-abb3-f2ad9274cc0d.png">
 Page 2 - After Game finished, Replay button appears with scoreboard( including time )
-<img width="1440" alt="Screenshot 2022-10-26 at 9 49 44 AM" src="https://user-images.githubusercontent.com/113549918/198059477-e916dff1-76d9-4208-88b1-176cacc87b2a.png">
+<img width="1403" alt="Page 2 - Results DIsplay" src="https://user-images.githubusercontent.com/113549918/198181390-481ac07d-26a3-4f67-940b-12909a86d17c.png">
 
 
 ## List of Technologies used:-
