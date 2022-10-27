@@ -3,11 +3,11 @@
 ## Game Link : [**LINK**](https://jayanth920.github.io/project-1/)
 
 ## PROJECT SCREENSHOTS : 
-Page 1 - Rules <img width="1399" alt="Page 1 - Rules" src="https://user-images.githubusercontent.com/113549918/198181484-437a7bd4-884a-459d-bdfa-fbee5305aa8f.png">
-Page 2 - Heading and Controls <img width="1401" alt="Page 2 - Heading and Buttons" src="https://user-images.githubusercontent.com/113549918/198181162-a501ec63-9a7b-43f7-8955-3c195a02505f.png">
-Page 2 - Game Board<img width="1401" alt="Page 2 - Game Board" src="https://user-images.githubusercontent.com/113549918/198181223-ead66df8-40d9-449f-abb3-f2ad9274cc0d.png">
-Page 2 - After Game finished, Replay button appears with scoreboard( including time )
-<img width="1403" alt="Page 2 - Results DIsplay" src="https://user-images.githubusercontent.com/113549918/198181390-481ac07d-26a3-4f67-940b-12909a86d17c.png">
+Page 1 - Rules <img width="1433" alt="Page 1 - Rules" src="https://user-images.githubusercontent.com/113549918/198390135-22737b86-9ddc-40d8-aa25-7dba911d0735.png">
+Page 2 - Heading and Controls<img width="1437" alt="Page 2 - heading and refresh button" src="https://user-images.githubusercontent.com/113549918/198390169-a606a343-d26c-41cf-8509-70609d82bf6d.png">
+Page 2 - Game Board <img width="1434" alt="Page 2 - Game Board" src="https://user-images.githubusercontent.com/113549918/198390226-a8ee4e4f-e33b-424a-9056-11e9abeb0947.png">
+Page 2 - After the game is finished, moves and time taken can be seen. <img width="1434" alt="Page - 2 Time taken and moves shown" src="https://user-images.githubusercontent.com/113549918/198390271-b5c9f368-d007-4fbd-8dec-920cfb6687d5.png">
+
 
 
 ## List of Technologies used:-
