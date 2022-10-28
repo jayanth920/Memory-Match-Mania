@@ -1,0 +1,14 @@
+----Images : https://getemoji.com/
+----Arrow function code referral : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+----Multiple JS CODE SYNTAXES : https://eloquentjavascript.net/
+----CSS grid: https://codepip.com/games/grid-garden/
+----DOMParser: https://developer.mozilla.org/en-US/docs/Web/API/DOMParser
+----deferKeyword:https://www.w3schools.com/tags/att_script_defer.asp
+----cssZindex: https://www.w3schools.com/css/css_z-index.asp
+----cssTransition: https://www.w3schools.com/css/css3_transitions.asp
+---cssFlexbox: https://www.youtube.com/watch?v=K74l26pE4YA
+----cssAnimations: https://www.youtube.com/watch?v=HZHHBwzmJLk
+----cssPopubBox: https://www.w3schools.com/howto/howto_css_modals.asp
+----FreeCodeCamp Memory Tutorial : https://www.youtube.com/watch?v=ZniVgo8U7ek
+----Theme button toggle: https://www.youtube.com/watch?v=xodD0nw2veQ
+----Title animation : https://www.youtube.com/watch?v=MiqICOHghSs&list=PLTx5odxbAeZxoR0z1l31F-N8ScRUKzshM&index=5

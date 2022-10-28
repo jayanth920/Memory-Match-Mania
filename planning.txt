@@ -1,0 +1,14 @@
+----GOLD: To make the card flip with different images and match with the correct pair.
+----SILVER: To make the the timer and moves work.
+----BRONZE: To make the grid or flexbox css styling.
+
+
+PLANNING
+-Partial HTML skeleton code for the container GRID. --Date : 10/21/2022   
+-Basic Grid CSS Styling and start with JS declarations, Timer,Moves and add planning.txt. --Date : 010/22/2022   
+-Add favicon, credits.txt to be added and updated as project progresses. --Date : 10/23/2022   
+-Added some buttons, added a popup box with rules that redirects to game.  --Date : 10/24/2022
+-Added Light and Dark theme toggle buttons.  --Date : 10/25/2022
+-Adjusted all the CSS layouts of cards , buttons , and wrote the main functions. --Date : 10/26/2022
+-Made a shorter version of the game , using the code done previously with images, --Date: 10/27/2022
+  
