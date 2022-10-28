@@ -17,9 +17,6 @@ Page 2 - After the game is finished, moves and time taken can be seen. <img widt
 ## List of Technologies used:-
  HTML,CSS,JAVASCRIPT
  
-## The Planning for this project:-
- Please go through the **planning.txt** :[**LINK**](https://github.com/jayanth920/project-1/blob/main/files/planning.txt)
- 
  ## WireFrame 
  
 ![WireFrame](https://user-images.githubusercontent.com/113549918/198056394-22194d63-5631-49aa-a57f-df99ca8fad34.jpeg)
