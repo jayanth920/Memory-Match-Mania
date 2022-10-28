@@ -2,6 +2,10 @@
 
 ## Game Link : [**LINK**](https://jayanth920.github.io/project-1/)
 
+##THE EMOJI CARD GAME :- Brief Description :
+My app is called Flash Cards. It's a game app for players who want to play Flash Cards online. A single player game with the score being kept automatically . If possible the bonus criteria of time keeping, scores will be done, with multiple card shuffle each time. General features will be present with suitable animations.
+
+
 ## PROJECT SCREENSHOTS : 
 Page 1 - Rules <img width="1433" alt="Page 1 - Rules" src="https://user-images.githubusercontent.com/113549918/198390135-22737b86-9ddc-40d8-aa25-7dba911d0735.png">
 Page 2 - Heading and Controls<img width="1437" alt="Page 2 - heading and refresh button" src="https://user-images.githubusercontent.com/113549918/198390169-a606a343-d26c-41cf-8509-70609d82bf6d.png">
