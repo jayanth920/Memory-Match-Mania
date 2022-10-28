@@ -26,6 +26,18 @@ Page 2 - After the game is finished, moves and time taken can be seen. <img widt
 -> As a user, I want to check my time taken.<br>
 -> As a user, I want to know my score or at least the moves.
 
+## MVP Goals
+I want the the cards to flip smoothly.
+I want the cards to flip upside when matched.
+I want the user to see their moves taken.
+I want the user to restart the game.
+Getting the timer to work without errors.
+
+## Stretch Goals
+
+The time taken to finish the game.
+Include images on both sides of the flash card.
+
 ## Major Hurdles (All credits are given to the respective contributors in my [**credits.txt**](https://github.com/jayanth920/project-1/blob/main/files/credits.txt))
 -> For me the css styling was a big blocker when the game container did not come to the center.But after watching few tutorials on flexbox, I finally did it.<br>
 -> The logic of shuffling the cards and generating them in my website was a problem , but solved it with a video of FreeCodeCamp.
