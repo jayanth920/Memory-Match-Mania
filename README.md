@@ -15,7 +15,7 @@ Page 2 - After the game is finished, moves and time taken can be seen. <img widt
 
 
 ## List of Technologies used:-
- Please go through the **credits.txt**:[**LINK**](https://github.com/jayanth920/project-1/blob/main/files/credits.txt)
+ HTML,CSS,JAVASCRIPT
  
 ## The Planning for this project:-
  Please go through the **planning.txt** :[**LINK**](https://github.com/jayanth920/project-1/blob/main/files/planning.txt)
